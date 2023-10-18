@@ -10,25 +10,7 @@ B6: C--*/
 using namespace std;
 
 int main(void) {
-  /*  Queue qYuh;
-
-  cout << "ENQUUQUQ" << endl;
   
-  for (int i = 0; i < 5; i ++)
-    {
-      qYuh.enqueue(i * i);
-    }
-
-  cout<< "values in queue were: \n";
-  while(!qYuh.isEmpty())
-    {
-      int val;
-      qYuh.dequeue(val);
-      cout<< val << " ";
-      
-    }
-    THIS WAS TO HELP DEBUG
-    cout << endl;*/
   
   //objects for cipher class
   Cipher cipherYuh;
