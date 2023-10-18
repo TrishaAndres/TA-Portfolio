@@ -115,35 +115,6 @@ public class TicTacToe {
                 }
 
 
-                /*i tried to do the try and catch statements for this and got very confused
-                 i never could figure out what i did wrong and gave up to save my sanity :)
-                */
-                /*boolean inputError = false; 
-                try{
-                    row = scnr.nextInt();
-                    column = scnr.nextInt();
-                    /*if ((row == 1) || (row == 2) || (row == 3) || (column == 1) || (column == 2) || (column == 3)) {
-                        row = row - 1;
-                        column = column - 1;
-                    }
-                    //int userRow = Integer.parseInt(row);
-                    //int userCol = Integer.parseInt(column);
-                }
-                catch (InputMismatchException e) {
-                    inputError = true;
-                }
-                if ((row > 2) || (row < 0) || (column > 2) || (column < 0)) {
-                    inputError = true;
-                }
-
-                while(inputError == true) {
-                    System.out.println("Please enter row and col numbers from 1 to 3:");
-                    break;
-                }
-                if (board[row][column] != "_ |"){
-                    System.out.println("That spot is full!");*/
-                //}
-
 
                 //at inputted row and column the symbol of the player is put there
                 board[row][column] = symbol;
